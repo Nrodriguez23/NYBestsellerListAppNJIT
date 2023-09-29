@@ -1,5 +1,7 @@
 package com.codepath.bestsellerlistapp
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -88,7 +90,17 @@ class BestSellerBooksFragment : Fragment(), OnListFragmentInteractionListener {
 
 
                 Log.d("BestSellerBooksFragment", "response successful")
+
+
+
+
+
+
+
                 progressBar.hide()
+
+
+
             }
 
             /*

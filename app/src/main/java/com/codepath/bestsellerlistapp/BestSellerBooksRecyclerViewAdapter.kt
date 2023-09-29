@@ -39,7 +39,7 @@ class BestSellerBooksRecyclerViewAdapter(
         val book_image = mView.findViewById<ImageView>(id.book_image)
         val mBook_description : TextView = mView.findViewById<View>(id.book_description) as TextView
 
-        override fun toString(): String {
+            override fun toString(): String {
             return mBookTitle.toString() + " '" + mBookAuthor.text + "'"
         }
     }
@@ -67,6 +67,7 @@ class BestSellerBooksRecyclerViewAdapter(
             }
         }
     }
+
 
     /**
      * Remember: RecyclerView adapters require a getItemCount() method.

@@ -1,8 +1,10 @@
 package com.codepath.bestsellerlistapp
 
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.codepath.bestsellerlistapp.R.id
+import com.codepath.bestsellerlistapp.R.id.buy_button
 
 /**
  * The MainActivity for the BestSellerList app.
@@ -15,7 +17,6 @@ class MainActivity : AppCompatActivity() {
         val supportFragmentManager = supportFragmentManager
         val fragmentTransaction = supportFragmentManager.beginTransaction()
         fragmentTransaction.replace(id.content, BestSellerBooksFragment(), null).commit()
-
 
     }
 }

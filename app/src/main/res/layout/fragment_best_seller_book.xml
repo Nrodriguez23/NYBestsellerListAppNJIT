@@ -7,43 +7,46 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:layout_margin="6dp"
+    android:background="#FFFFFF"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/ranking"
-        android:layout_width="148dp"
+        android:layout_width="24dp"
         android:layout_height="wrap_content"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/book_image"
         android:layout_width="150dp"
         android:layout_height="200dp"
-        tools:srcCompat="@tools:sample/avatars"
         android:textStyle="bold"
-        />
+        tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/book_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textStyle="bold|italic"
-        />
+        android:textStyle="bold|italic" />
 
     <TextView
         android:id="@+id/book_author"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="10sp" />
 
     <TextView
         android:id="@+id/book_description"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="185dp"
+        android:layout_height="143dp"
+        android:textSize="12sp" />
 
     <Button
         android:id="@+id/buy_button"
-        android:layout_width="100dp"
-        android:layout_height="52dp"
-        android:text="BUY" />
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#357DAF"
+        android:text="BUY ON AMAZON"
+        android:textColor="#CCC4C4" />
 
 </LinearLayout>
