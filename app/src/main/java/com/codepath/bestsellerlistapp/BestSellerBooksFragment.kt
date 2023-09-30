@@ -81,7 +81,6 @@ class BestSellerBooksFragment : Fragment(), OnListFragmentInteractionListener {
 
 
 
-
                 val gson = Gson()
                 val arrayBookType = object : TypeToken<List<BestSellerBook>>() {}.type
                 val models : List<BestSellerBook> = gson.fromJson(booksRawJSON, arrayBookType)
