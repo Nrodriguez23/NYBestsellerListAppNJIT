@@ -47,7 +47,7 @@ class BestSellerBooksRecyclerViewAdapter(
             return mBookTitle.toString() + " '" + mBookAuthor.text + "'"
         }
     }
-
+//HI
     /**
      * This lets us "bind" each Views in the ViewHolder to its' actual data!
      */
