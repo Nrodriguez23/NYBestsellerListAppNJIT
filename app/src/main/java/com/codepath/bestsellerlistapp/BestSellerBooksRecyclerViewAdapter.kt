@@ -48,6 +48,7 @@ class BestSellerBooksRecyclerViewAdapter(
         }
     }
 //HI
+        //hi
     /**
      * This lets us "bind" each Views in the ViewHolder to its' actual data!
      */
